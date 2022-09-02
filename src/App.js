@@ -4,7 +4,7 @@ import { connectWalletToSite } from "./utils/walletConnect";
 const Web3 = require("web3");
 const web3 = new Web3("https://matic-mumbai.chainstacklabs.com");
 const MultisigContract = require("./contracts/Multisig.json");
-const contractAddress = "0x7197C8ff40375232EceaDAF740e1947F3D7A0C5F";
+const contractAddress = "0xfFBa4766816BC5A8618ADC62fc790a3b8be7cfC3";
 
 function App() {
 	const [transfer, setTransfer] = useState(null);
